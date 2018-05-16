@@ -1,0 +1,62 @@
+body {
+    text-align: center;
+    /* background: linear-gradient(to top, #0f0c29, #302b63, #24243e); */
+    /* background: linear-gradient(to top, #ff5f6d, #ffc371);  */
+    /* background: linear-gradient(to top, #333333, #dd1818); */
+    background: linear-gradient(to top, #1fa2ff, #12d8fa, #a6ffcb);
+  }
+
+  h1{
+    /* font-family: 'Marck Script', cursive; */
+    font-family: 'Audiowide', cursive;
+    /* font-family: 'Caveat Brush', cursive; */
+    /* font-family: 'Shojumaru', cursive; */
+    margin: 0px auto;
+    display: block;
+    color:#000066;
+    
+
+  }
+  span.author{
+      color:rgba(255, 87, 87, 0.966);
+      font-family: 'Marck Script', cursive; 
+      padding:0px 90px;
+      /* text-align: left; */
+      
+     
+  }
+  textarea {
+    width: 32%;
+    /* float:top; */
+    min-height: 250px;
+    overflow: scroll;
+    margin: auto;
+    display: inline-block;
+    background: #F4F4F9;
+    outline: none;
+    font-family: Courier, sans-serif;
+    font-size: 14px;
+    /* opacity:.2; */
+  }
+
+  iframe {
+    bottom: 0;
+    position: relative;
+    width: 100%;
+    height: 35em;
+  }
+  #html,#css,#js{
+    border: 3px solid #cccccc;
+    /* padding: 5px; */
+    background-color:white;
+    /* background-image: url(bg.gif); */
+	background-position: bottom right;
+    background-repeat: no-repeat;
+    outline: none;
+    overflow: auto;
+    resize: none;
+
+  }
+#code{
+    background-color: white;
+}

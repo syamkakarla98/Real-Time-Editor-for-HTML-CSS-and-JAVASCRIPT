@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="CSS/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Audiowide|Caveat+Brush|Marck+Script|Shojumaru" rel="stylesheet">
+    <title>Code Editor</title>
+</head>
+<body>
+    <div class="container">
+        <h1>Real Time Editor for Web Development <span class="author">- Syam kakarla</span></h1>
+        <textarea id="html"onfocus="this.value=''; setbg1('#e6ffff');" onblur="setbg1('white')" placeholder="HTML Here..."></textarea>
+        <textarea id="css" onfocus="this.value=''; setbg2('#e6ffff');" onblur="setbg2('white')" placeholder="CSS Here..."></textarea>
+        <textarea id="js" onfocus="this.value=''; setbg3('#e6ffff');" onblur="setbg3('white')" placeholder="JavaScript Here..."></textarea>
+        <iframe id="code"></iframe>
+        <script type="text/javascript" src="JS/app.js"></script>
+    </div>  
+</body>
+</html>
