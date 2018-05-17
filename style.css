@@ -50,10 +50,10 @@ body {
     /* padding: 5px; */
     background-color:white;
     /* background-image: url(bg.gif); */
-	background-position: bottom right;
+	  background-position: bottom right;
     background-repeat: no-repeat;
     outline: none;
-    overflow: auto;
+    /* overflow: auto; */
     resize: none;
 
   }
